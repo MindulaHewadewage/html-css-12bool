@@ -1,0 +1,32 @@
+/* GENERICS */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.row{
+    line-height: 30px;
+    text-align: center;
+}
+
+.row > [class^='col'] {
+    background-color: #006CFA;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+}
+
+.row > [class^='col'] [class^='col']{
+    background-color: #00E165;
+    height: 30px;
+    border: 1px solid white;
+}
+
+
+.mb-15{
+    margin-bottom: 15px;
+}
+
+
+
